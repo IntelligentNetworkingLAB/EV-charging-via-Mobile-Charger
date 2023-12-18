@@ -8,8 +8,7 @@ if __name__ == '__main__':
     state = env.reset()
     while True:
         action, _ = model.predict(state[0], deterministic=False)
-        info = env.step(action) 
-        #print(state[0])
+        info = env.step(action)
         state = info
 
         if info[2] or info[3]:
