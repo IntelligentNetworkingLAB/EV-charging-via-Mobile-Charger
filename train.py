@@ -160,7 +160,7 @@ env = Monitor(Agent())
 model = PPO("MlpPolicy", env, tensorboard_log="./model/timeslot/PPO", device="cpu", learning_rate= 5e-5)
 
 model.learn(total_timesteps=4e6)
-model.save(f"./model/timeslot/PPO_5")
+model.save(f"./model/timeslot/PPO")
 
 """
 # A2C 에이전트 초기화
@@ -170,6 +170,6 @@ model = A2C("MlpPolicy",
 
 model.learn(total_timesteps=8e6)
         
-model.save(f"./model/A2C/A2C_4")
+model.save(f"./model/A2C/A2C")
 """
 
