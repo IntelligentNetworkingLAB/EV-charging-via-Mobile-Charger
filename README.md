@@ -1,6 +1,6 @@
 # EV-charging-via-Mobile-Charger
 This simulation is for the EV charging strategy with mobile charger. We solve this problem via Deep reinforcement learning.
-
+![System_Model](https://github.com/IntelligentNetworkingLAB/EV-charging-via-Mobile-Charger/assets/101239762/93efb624-bdc4-49e8-9b89-a766a36f58f7)
 ## Overview
 Driven with Electric Vehicle (EV) technology as a new aspect of vehicles, EVs get much attention in smart city society. EVs are favored for their low operational costs and minimized environmental footprint compared to traditional vehicles. The EV market is rapidly growth, with it estimated that EV units will grow up to 125 million by 2030. As EVs increase, there are some problems need to be solved. One of them is about EV charging. EVs have limited charging areas, unlike the traditional vehicles, charging time takes a long time, and there are limitations in charging freely. Therefore, for EVs to be more commercialized, it is necessary to solve the charging problem. In this paper, the new paradigm of the EV charging system using a mobile charger has been proposed, and a model free deep reinforcement learning approach is proposed to make the strategy optimized.
 
